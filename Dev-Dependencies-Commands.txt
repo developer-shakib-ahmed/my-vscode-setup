@@ -1,0 +1,31 @@
+------------------------------------------------------------------------------
+For node-js projects:-
+
+yarn add -D eslint prettier
+yarn add -D eslint-config-airbnb-base
+yarn add -D eslint-config-prettier eslint-plugin-prettier
+
+"mylint": "yarn add -D eslint prettier && yarn add -D eslint-config-airbnb-base && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+For react-js projects:-
+
+yarn add -D prettier
+yarn add -D babel-eslint
+yarn add -D eslint
+yarn add -D eslint-plugin-import
+yarn add -D eslint-plugin-jsx-a11y
+yarn add -D eslint-plugin-react
+yarn add -D eslint-plugin-react-hooks
+yarn add -D eslint-config-airbnb
+yarn add -D eslint-config-prettier eslint-plugin-prettier
+
+"mylint": "yarn add -D prettier && yarn add -D babel-eslint && yarn add -D eslint && yarn add -D eslint-plugin-import && yarn add -D eslint-plugin-jsx-a11y && yarn add -D eslint-plugin-react && yarn add -D eslint-plugin-react-hooks && yarn add -D eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
