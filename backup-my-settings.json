@@ -102,8 +102,13 @@
   "bracketPairColorizer.depreciation-notice": false,
   "blade.format.enable": true,
   "workbench.colorTheme": "Mac Classic",
+  // "editor.fontLigatures": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.tabSize": 2,
+
+  /*
+   * Config related to code formatting
+   */
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -111,9 +116,17 @@
     "editor.formatOnSave": false,
     "editor.defaultFormatter": null
   },
+  "[css]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.organizeImports": true
   },
-  "eslint.alwaysShowStatus": true
+  "eslint.alwaysShowStatus": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }
