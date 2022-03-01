@@ -120,6 +120,10 @@
     "editor.formatOnSave": false,
     "editor.defaultFormatter": null
   },
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.organizeImports": true
