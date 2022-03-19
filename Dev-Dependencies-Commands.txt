@@ -22,7 +22,7 @@ yarn add -D eslint-plugin-react-hooks
 yarn add -D eslint-config-airbnb
 yarn add -D eslint-config-prettier eslint-plugin-prettier
 
-"mylint": "yarn add -D prettier && yarn add -D babel-eslint && yarn add -D eslint && yarn add -D eslint-plugin-import && yarn add -D eslint-plugin-jsx-a11y && yarn add -D eslint-plugin-react && yarn add -D eslint-plugin-react-hooks && yarn add -D eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+"mylint": "yarn add -D prettier && yarn add --dev @babel/eslint-parser @babel/eslint-plugin && yarn add -D eslint && yarn add -D eslint-plugin-import && yarn add -D eslint-plugin-jsx-a11y && yarn add -D eslint-plugin-react && yarn add -D eslint-plugin-react-hooks && yarn add -D eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
 ------------------------------------------------------------------------------
 
 

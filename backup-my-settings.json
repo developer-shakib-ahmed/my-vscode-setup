@@ -132,5 +132,7 @@
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.hover.delay": 2000
 }
