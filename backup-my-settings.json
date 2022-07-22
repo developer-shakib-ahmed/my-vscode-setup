@@ -134,5 +134,9 @@
     "javascript": "javascriptreact"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.hover.delay": 2000
+  "editor.hover.delay": 1000,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.guides.bracketPairs": true,
+  "css.validate": false,
+  "tailwindCSS.emmetCompletions": true
 }

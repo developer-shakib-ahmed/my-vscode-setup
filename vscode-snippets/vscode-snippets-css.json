@@ -1,0 +1,31 @@
+{
+	"Margin 0 Padding 0": {
+		"prefix": "mp",
+		"body": [
+			"margin:0;",
+			"padding:0;",
+			"box-sizing:border-box;",
+		],	
+	},
+
+	"Margin 0 Auto": {
+		"prefix": "mma",
+		"body": [
+			"margin:0 ${1:auto};",
+		],	
+	},
+
+	"Media Max": {
+		"prefix": "@max",
+		"body": [
+			"@media (max-width: ${1:767}px) {\n\t$0\n}",
+		],	
+	},
+
+	"Media Min": {
+		"prefix": "@min",
+		"body": [
+			"@media (min-width: ${1:768}px) {\n\t$0\n}",
+		],	
+	}
+}
