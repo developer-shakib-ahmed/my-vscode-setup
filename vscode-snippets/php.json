@@ -1,0 +1,39 @@
+{
+  "Insert Plugin Header Comments": {
+    "prefix": "plHeadCom",
+    "body": [
+      "/**\n * Plugin Name: ${1:The Plugin}\n * Description: ${2:Description}\n * Plugin URI: https://${3:plugin.uri}\n * Author: ${4:Developer Shakib Ahmed}\n * Author URI: https://${5:author.uri}\n * Text Domain: ${6:sk-academy}\n * Domain Path: /${7:languages}/\n * Version: ${8:1.0}\n * License: GPL2 or Later\n * License URI: https://www.gnu.org/licenses/gpl-2.0.html\n */\n\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\n"
+    ],
+    "description": ""
+  },
+
+  "v1 - Insert Doc Block Comments": {
+    "prefix": "docBloCom-V1",
+    "body": ["/**\n * ${1:Summary}\n */\n"],
+    "description": ""
+  },
+
+  "v2 - Insert Doc Block Comments": {
+    "prefix": "docBloCom-V2",
+    "body": [
+      "/**\n * ${1:Summary}\n *\n * @return ${2:[type]} ${3:[description]}\n */\n"
+    ],
+    "description": ""
+  },
+
+  "v3 - Insert Doc Block Comments": {
+    "prefix": "docBloCom-V3",
+    "body": [
+      "/**\n * ${1:Summary}\n *\n * ${2:Description}\n *\n * @${3:param} ${4:type}\n *\n * @return ${5:void}\n */\n"
+    ],
+    "description": ""
+  },
+
+  "v4 - Insert Doc Block Comments": {
+    "prefix": "docBloCom-V4",
+    "body": [
+      "/**\n * ${1:Summary}\n *\n * ${2:Description}\n *\n * @since ${3:x.x.x}\n *\n * @see ${4:Function/method/class relied on}\n *\n * @link ${5:URL}\n *\n * @global type ${6:varname Description}\n *\n * @param ${7:type}\n *\n * @return ${8:void}\n */\n"
+    ],
+    "description": ""
+  }
+}
