@@ -2,7 +2,7 @@
   "Insert Plugin Header Comments": {
     "prefix": "plHeadCom",
     "body": [
-      "/**\n * Plugin Name: ${1:The Plugin}\n * Description: ${2:Description}\n * Plugin URI: https://${3:plugin.uri}\n * Author: ${4:Developer Shakib Ahmed}\n * Author URI: https://${5:author.uri}\n * Text Domain: ${6:sk-academy}\n * Domain Path: /${7:languages}/\n * Version: ${8:1.0}\n * License: GPL2 or Later\n * License URI: https://www.gnu.org/licenses/gpl-2.0.html\n */\n\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\n"
+      "/**\n * Plugin Name: ${1:The Plugin}\n * Description: ${2:Description}\n * Plugin URI: https://${3:plugins.shakibahmed.com/}\n * Author: ${4:Developer Shakib Ahmed}\n * Author URI: https://${5:shakibahmed.com/}\n * Text Domain: sk-${6:text-domain}\n * Domain Path: /${7:languages}/\n * Version: ${8:1.0}\n * License: GPL2 or Later\n * License URI: https://www.gnu.org/licenses/gpl-2.0.html\n */\n\nif ( ! defined( 'ABSPATH' ) ) {\n\texit;\n}\n"
     ],
     "description": ""
   },
