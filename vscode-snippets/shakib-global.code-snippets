@@ -18,7 +18,7 @@
 
   "jqDocShort": {
     "prefix": "jqDocShort",
-    "body": ["( function( $ ) {\n\t$1\n} )( jQuery );"],
+    "body": ["( function( $ ) {\n\n\t$0\n\n} )( jQuery );"],
     "description": "WordPress jQuery Short Block"
   }
 }

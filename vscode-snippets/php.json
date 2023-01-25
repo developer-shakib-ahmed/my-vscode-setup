@@ -1,4 +1,16 @@
 {
+  // Place your snippets for php here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+
+  // "Print to console": {
+  //   "prefix": "log",
+  //   "body": ["console.log('$1');", "$2"],
+  //   "description": "Log output to console"
+  // },
+
   "Insert Plugin Header Comments": {
     "prefix": "plHeadCom",
     "body": [
@@ -34,6 +46,18 @@
     "body": [
       "/**\n * ${1:Summary}\n *\n * ${2:Description}\n *\n * @since ${3:x.x.x}\n *\n * @see ${4:Function/method/class relied on}\n *\n * @link ${5:URL}\n *\n * @global type ${6:varname Description}\n *\n * @param ${7:type}\n *\n * @return ${8:void}\n */\n"
     ],
+    "description": ""
+  },
+
+  "if( isset( $condition ) ) { }": {
+    "prefix": "ifis",
+    "body": ["if( isset( ${0:condition} ) ) {\n \t# code ...\n}"],
+    "description": ""
+  },
+
+  "if( empty( $condition ) ) { }": {
+    "prefix": "ifem",
+    "body": ["if( empty( ${0:condition} ) ) {\n \t# code ...\n}"],
     "description": ""
   }
 }
