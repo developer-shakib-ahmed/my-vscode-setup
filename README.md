@@ -1,1 +1,1 @@
-# my-vscode-setup
+# My VS Code Editor Settings & Configurations
